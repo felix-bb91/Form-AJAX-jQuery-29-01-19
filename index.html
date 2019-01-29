@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    
+    <!--Cargamos el css despues para que siempre tenga prioridad sobre las clases de bootsrap-->
+    <link rel="stylesheet" href="style.css"> 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript"  src="index.js" charset="UTF-8"></script>
+
+    <title>Clase Nico 29/01/19</title>
+</head>
+
+
+
+
+    
+<body>
+    <h1 class="mainTitle">Clase Nico 29/01/19</h1>
+
+    <form action="" method="post" id="formulario">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+    </div>
+    <div>
+        <label for="cars">Automovil:</label>
+        <select name="cars" id="company">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+    </div>
+    <div class="radio">
+        <label for="cantidad">Cantidad de autos:</label>
+        <input type="radio" name="cantidad" value="1" checked>1
+        <input type="radio" name="cantidad" value="2">2
+        <input type="radio" name="cantidad" value="3">3
+        <input type="radio" name="cantidad" value="4">4
+        <input type="radio" name="cantidad" value="5">5
+        <input type="radio" name="cantidad" value="6">6
+        <input type="radio" name="cantidad" value="7">7
+    </div>
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+    <div><input type="submit" value="Submit"></div>
+    <div><input type="reset"></div>
+    </form>
+    
+
+
+
+    <button id="fetch">Buscar respuestas</button>
+    
+    <div id="responsesContainer"></div>
+    
+    <div id="fiatUsers"></div>
+    
+    <div id="consignas">
+        <p>Utilizar el actual código fuente como base para realizar el siguiente ejercicio integrador de todas las tecnologías vistas hasta ahora: Utilización de Google (preferentemente en inglés), HTML5, CSS3, Bootstrap, Javascript, GIT, jQuery (incluido AJAX)</p>
+        <ol>
+        <li>Crear una base de datos en Firebase (Realtime Database).</li>
+        <li>Crear un repositorio en github y vincularlo con su entorno local.</li>
+        <li>Hacer funcionar el sitio en github pages.</li>
+        <li>Crear un formulario que va a tener como objetivo consultarle a tus compañeros su opinión acerca de algo que te interese. Sería interesante utilizar algunos campos de formulario que no hayas utilizado hasta ahora y asignar ciertos valores numéricos a algunos campos para poder realizar algunos cálculos al recuperar la información luego</li>
+        <li>Compartir con los compañeros la ubicación de su formulario en github pages así pueden rellenar el formulario en cuestión</li>
+        <li>Crear una página de análisis de respuestas con los datos provistos por los compañeros</li>
+        <li>Mejorar la estética de tu sitio con CSS, SASS y/o Bootstrap (lo que prefirais).</li>
+        <li>Refactorizar el código lo más posible: modularizando lógica en diferentes archivos y encapsulando en funciones lo más posible (siempre siguiendo el principio DRY). </li>
+    
+        </ol>
+    </div>
+      
+      
+      
+
+
+
+      
+      
+    
+</body>
+</html>
